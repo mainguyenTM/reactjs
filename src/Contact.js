@@ -9,7 +9,7 @@ function Contact(){
                         <div class="card mb-0" data-aos="zoom-in">
                             <div class="h4 text-center title">Contact Me</div>
                             <div class="row">
-                                <form action="https://formspree.io/your@email.com" method="POST">
+                                <form style={{'width':'70%', 'margin': '0 auto'}}>
                                     <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                                     <div class="row mb-3">
                                         <div class="col">
