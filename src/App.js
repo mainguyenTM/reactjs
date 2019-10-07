@@ -1,15 +1,31 @@
 import React from 'react';
 import './App.css';
-import Person from './Person';
+import './themes/css/main.css';
+import './themes/css/bootstrap.min.css';
+import SummaryInfo from './SummaryInfo';
+import Skill from './Skill';
+import Experience from './Experience';
+import Reference from './Reference';
+import Contact from './Contact';
 
 function App() {
-  let person = new Person('Mai');
-  let msg1 = person.isMyself('An');
-  let msg2 = person.isMyself('Mai');
   return (
     <div className="App">
-      <div>An: {msg1}</div>
-      <div>Mai: {msg2}</div>
+      <div class="page-content">
+        <div>
+              {/*about*/}
+              <SummaryInfo></SummaryInfo>
+              {/*Skill*/}
+              <Skill></Skill>
+              {/*Experience*/}
+              <Experience></Experience>
+              {/*Reference*/}
+              <Reference></Reference>
+              {/*Contact*/}
+              <Contact></Contact>
+
+        </div>
+      </div>
     </div>
   );
 }
