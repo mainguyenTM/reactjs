@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Person from './Person';
 
 function App() {
+  let person = new Person('Mai');
+  let msg1 = person.isMyself('An');
+  let msg2 = person.isMyself('Mai');
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Mai map
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>An: {msg1}</div>
+      <div>Mai: {msg2}</div>
     </div>
   );
 }
+
 
 export default App;
