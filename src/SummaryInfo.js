@@ -5,7 +5,6 @@ import Mock from './mock/Mock'
 function SummaryInfo(){
     let {about} = Mock.person;
     let {basic_info} = Mock.person;
-    console.log(1234);
     return (
         <div className="section" id="about">
             <div className="container">

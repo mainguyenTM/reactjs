@@ -16,6 +16,22 @@ const Mock = {
             }
         }
     },
+    'work_experience': [{
+        'date_range': 'MARCH 2016 - PRESENT',
+        'company_name': 'CREATIVEM',
+        'candidate_position': 'Front End Developer',
+        'job_desc': 'Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.'
+    },{
+        'date_range': 'APRIL 2014 - MARCH 2016',
+        'company_name': 'WEBNOTE',
+        'candidate_position': 'Web Developer',
+        'job_desc': 'Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.'
+    },{
+        'date_range': 'APRIL 2013 - FEBRUARY 2014',
+        'company_name': 'WEBM',
+        'candidate_position': 'Intern',
+        'job_desc': 'Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.'
+    }],
     'reference_person_info': {
         'person_name': 'Aiyana',
         'person_position': 'CEO / WEBM',

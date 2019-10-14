@@ -15,12 +15,12 @@ function App() {
         <div>
               {/*about*/}
               <SummaryInfo></SummaryInfo>
-              {/*Skill*/}
-              <Skill></Skill>
               {/*Experience*/}
               <Experience></Experience>
               {/*Reference*/}
               <Reference></Reference>
+              {/*Skill*/}
+              <Skill></Skill>
               {/*Contact*/}
               <Contact></Contact>
 
