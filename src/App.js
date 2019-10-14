@@ -11,7 +11,7 @@ import Contact from './Contact';
 function App() {
   return (
     <div className="App">
-      <div class="page-content">
+      <div className="page-content">
         <div>
               {/*about*/}
               <SummaryInfo></SummaryInfo>
