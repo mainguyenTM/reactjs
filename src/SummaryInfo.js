@@ -7,6 +7,7 @@ function SummaryInfo(){
     let {basic_info} = Mock.person;
     return (
         <div className="section" id="about">
+            <FileLibrary.Clock></FileLibrary.Clock>
             <div className="container">
             <div className="card" data-aos="fade-up" data-aos-offset="10">
                 <FileLibrary.PersonalInfo about_prop={about} basic_info_prop={basic_info}></FileLibrary.PersonalInfo>
