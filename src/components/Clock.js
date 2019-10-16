@@ -12,9 +12,9 @@ class Clock extends React.Component {
       ctx.fillStyle = 'white';
       ctx.fill();
       grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-      grad.addColorStop(0, '#333');
+      grad.addColorStop(0, '#DAA520');
       grad.addColorStop(0.5, 'white');
-      grad.addColorStop(1, '#333');
+      grad.addColorStop(1, '#DAA520');
       ctx.strokeStyle = grad;
       ctx.lineWidth = radius*0.1;
       ctx.stroke();
